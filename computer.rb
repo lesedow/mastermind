@@ -12,7 +12,7 @@ class Computer
   end
 
   def make_guess
-   # make guess
+    # pass
   end
 
   def feedback(guess)
@@ -28,6 +28,7 @@ class Computer
       end
     end
     puts "feedback: There are #{wrong_order} colors in the wrong order and #{correct} placed correctly!"
+    # this can be motified - instead of true false lets have the actual values of wrong_order and correct
     correct == 4 ? @feedback_status = true : @feedback_status = false
   end
 end
